@@ -1,16 +1,14 @@
-import React from 'react';
-import Pessoa from './components/Pessoa';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
-  const pessoa = {
-    nome: 'Luyz',
-    idade: 18
-  };
-
   return (
     <div className="App">
-      <Pessoa nome={pessoa.nome} idade={pessoa.idade}/>
+      <Header className='App-header' />
+
+      <div>
+        <p>aqui é o body</p>
+      </div>
     </div>
   );
 }
