@@ -6,16 +6,3 @@ html {
   padding: 30px;
   text-align: center;
 }
-
-.App-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
-}

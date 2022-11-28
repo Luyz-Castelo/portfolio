@@ -1,11 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: calc(10px + 2vmin);
+}
+
 .pages {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   gap: 5px;
   font-size: calc(5px + 1vmin);
-}
-
-.pages Link {
-  color: #61dafb;
 }

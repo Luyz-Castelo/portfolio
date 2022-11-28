@@ -1,13 +1,14 @@
-import GithubIcon from '../Icons/GithubIcon/GithubIcon'
+import Image from '../Image/Image'
+import GithubImage from '../../public/GithubImage.png'
 import style from './Header.module.css'
 import Link from '../Link/Link'
 
-const Header = ({className}: any) => {
+const Header = () => {
 
   return (
-    <div className={className}>
+    <header className={style.header}>
       <a href='https://github.com/Luyz-Castelo' target='blank'>
-        <GithubIcon />
+        <Image src={GithubImage} />
       </a>
       <div>
         Luyz Castelo Branco
@@ -18,7 +19,7 @@ const Header = ({className}: any) => {
           <Link link='https://github.com/Luyz-Castelo' text='Github' />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
