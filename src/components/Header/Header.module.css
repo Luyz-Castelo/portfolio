@@ -1,16 +1,16 @@
 .header {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 20px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 3vmin);
 }
 
 .pages {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
-  gap: 5px;
-  font-size: calc(5px + 1vmin);
+  gap: 15px;
+  font-size: calc(8px + 1.6vmin);
 }
