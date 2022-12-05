@@ -2,6 +2,9 @@ import { createTheme, responsiveFontSizes } from "@mui/material";
 
 let theme = createTheme({
   typography: {
+    allVariants: {
+      textTransform: 'uppercase',
+    },
     h6: {
       color: '#5e5e5e',
       fontWeight: 'bold',
@@ -43,4 +46,3 @@ let theme = createTheme({
 theme = responsiveFontSizes(theme);
 
 export default theme;
-
