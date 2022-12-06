@@ -1,13 +1,11 @@
 import { createTheme, responsiveFontSizes } from "@mui/material";
 
-let theme = createTheme({
+const theme = createTheme({
   typography: {
     allVariants: {
-      fontFamily: 'Rubik'
+      fontFamily: 'Rubik; sans-serif !important'
     },
   },
 });
 
-theme = responsiveFontSizes(theme);
-
-export default theme;
+export default responsiveFontSizes(theme);

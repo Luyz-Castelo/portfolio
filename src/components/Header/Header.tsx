@@ -1,5 +1,5 @@
 import theme from './Header.theme';
-import Luyz from '../../public/Images/luyz.jpg' 
+import Luyz from '../../public/Images/luyz.jpg';
 import Grid from '@mui/material/Unstable_Grid2';
 import { 
   Container,
@@ -12,8 +12,8 @@ import {
 export const Header = () => {
   return (
     <ThemeProvider theme={theme}>
-      <header>
-        <Container maxWidth="md">
+      <header style={{marginBottom: '10vh'}}>
+        <Container>
           <Grid container mt={2} position='relative'>
             <Grid xs={2} md={2}>
               <Link href='/'>
