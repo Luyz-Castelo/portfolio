@@ -17,6 +17,7 @@ const theme = createTheme({
           style: {
             backgroundColor: '#f1f8fa',
             padding: '5vh 5vw',
+            marginBottom: '4vh'
           }
         },
       ],
