@@ -16,21 +16,15 @@ const theme = createTheme({
           }
         },
         {
-          props: { id: 'project' },
+          props: { id: 'projectList' },
           style: {
-            borderTop: '5px solid #dddddd',
-            padding: '6vh 0 !important',
-            borderBottom: '5px solid #dddddd',
+            display: 'grid',
+            gridTemplateColumns: 'auto auto auto',
+            gridGap: '4vmin 2vmin'
           }
-        },
-        {
-          props: { id: 'projectTitle' },
-          style: {
-            marginBottom: '2vh' 
-          }
-        },
+        }
       ]
-    }
+    },
   }
 });
 
