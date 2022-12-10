@@ -1,7 +1,7 @@
 import theme from './Header.theme';
 import Luyz from '../../public/Images/luyz.jpg';
 import Grid from '@mui/material/Unstable_Grid2';
-import { 
+import {
   Container,
   Link,
   Typography,
@@ -12,7 +12,7 @@ import {
 export const Header = () => {
   return (
     <ThemeProvider theme={theme}>
-      <header style={{marginBottom: '10vh'}}>
+      <header style={{ marginBottom: '10vh' }}>
         <Container>
           <Grid container mt={2} position='relative'>
             <Grid xs={2} md={2}>
