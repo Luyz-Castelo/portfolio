@@ -15,15 +15,27 @@ const theme = createTheme({
             padding: '6vh 0 !important',
           }
         },
-        {
-          props: { id: 'projectList' },
-          style: {
-            display: 'grid',
-            gridTemplateColumns: 'auto auto auto',
-            gridGap: '4vmin 2vmin'
+      ]
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          display: 'flex',
+          flexDirection: 'column',
+          flexWrap: 'wrap',
+          ':not(:last-child)': {
+            marginBottom: '4vh'
           }
         }
-      ]
+      }
+    },
+    MuiDivider: {
+      styleOverrides: {
+        root: {
+          borderBottomWidth: 'medium',
+          marginBottom: '1vh',
+        }
+      }
     },
   }
 });

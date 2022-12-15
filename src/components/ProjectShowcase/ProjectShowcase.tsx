@@ -1,5 +1,5 @@
 import  theme from "./ProjectShowcase.theme";
-import { ThemeProvider, Container, Typography, Link, Card, CardContent, CardMedia } from "@mui/material";
+import { ThemeProvider, Container, Typography, Link, Card, CardContent, CardMedia, Divider } from "@mui/material";
 import { projects } from "../../helpers/projects";
 
 export const ProjectShowcase = () => {
@@ -10,10 +10,9 @@ export const ProjectShowcase = () => {
           Personal Projects
         </Typography>
       </Container>
-      <Container id='projectList'>
-        {projects.map(({ title, description, imageSrc, imageAlt, projectLink }, index) => {
+      <Container>
+        {projects.map(({ title, description, imageSrc, imageAlt, projectLink }) => {
           return (
-            <Container>
               <Card variant='outlined'>
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="div">
@@ -23,11 +22,11 @@ export const ProjectShowcase = () => {
                     {description}
                   </Typography>
                 </CardContent>
+                <Divider />
                 <Link href={projectLink} target='blank'>
-                  <CardMedia component="img" image='https://via.placeholder.com/300' alt={imageAlt} />
+                  <CardMedia component="img" image={imageSrc} alt={imageAlt} />
                 </Link>
               </Card>
-            </Container>
           );
         }
         )}

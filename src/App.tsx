@@ -8,7 +8,7 @@ import { ProjectShowcase } from './components/ProjectShowcase/ProjectShowcase';
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Container maxWidth='md'>
+      <Container maxWidth='md' sx={{ padding: '4vh 4vw' }}>
         <CssBaseline />
         <Header />
         <IntroductionText />

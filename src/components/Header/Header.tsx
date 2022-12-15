@@ -14,7 +14,7 @@ export const Header = () => {
     <ThemeProvider theme={theme}>
       <header style={{ marginBottom: '10vh' }}>
         <Container>
-          <Grid container mt={2} position='relative'>
+          <Grid container position='relative'>
             <Grid xs={2} md={2}>
               <Link href='/'>
                 <Avatar src={Luyz} alt='Foto do Luyz' />

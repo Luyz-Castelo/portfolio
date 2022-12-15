@@ -1,3 +1,5 @@
+import colorSorter from '../public/Images/colorSorter.png'
+
 type Project = {
   title: string,
   description: string,
@@ -9,71 +11,8 @@ type Project = {
 export const projects: Project[] = [
   {
     title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
-    imageAlt: 'Color Sorter',
-    projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
-  },
-  {
-    title: 'Color Sorter',
-    description: 'basic project made using Javascript css and html',
-    imageSrc: 'caminho/da/imagem',
+    description: 'This is a basic project made using Javascript, css and html. It uses a color sorting algorithm made by Tomek dev',
+    imageSrc: colorSorter,
     imageAlt: 'Color Sorter',
     projectLink: 'https://github.com/Luyz-Castelo/Color-Sorter',
   },
