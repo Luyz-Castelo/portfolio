@@ -1,18 +1,16 @@
 import theme from './App.theme';
-import { Container, CssBaseline, ThemeProvider } from '@mui/material';
+import { Container, ThemeProvider } from '@mui/material';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
-import { IntroductionText } from './components/IntroductionText/IntroductionText';
-import { ProjectShowcase } from './components/ProjectShowcase/ProjectShowcase';
+import { router } from './helpers/router/router'
+import { RouterProvider } from "react-router-dom";
 
 export const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Container maxWidth='md' sx={{ padding: '4vh 4vw' }}>
-        <CssBaseline />
         <Header />
-        <IntroductionText />
-        <ProjectShowcase />
+        <RouterProvider router={router} />
         <Footer />
       </Container>
     </ThemeProvider>

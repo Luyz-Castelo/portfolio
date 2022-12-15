@@ -14,6 +14,7 @@ export const Header = () => {
     <ThemeProvider theme={theme}>
       <header style={{ marginBottom: '10vh' }}>
         <Container>
+          {/* Maybe change this to flex container */}
           <Grid container position='relative'>
             <Grid xs={2} md={2}>
               <Link href='/'>
@@ -32,22 +33,12 @@ export const Header = () => {
               </Grid>
 
               <Container id='links'>
-                <Link href='https://github.com/Luyz-Castelo'>
-                  <Typography variant='h6'>
-                    Work
-                  </Typography>
-                </Link>
-                <Link href='https://github.com/Luyz-Castelo'>
+                <Link href='/projects'>
                   <Typography variant='h6'>
                     Projects
                   </Typography>
                 </Link>
-                <Link href='https://github.com/Luyz-Castelo'>
-                  <Typography variant='h6'>
-                    Articles
-                  </Typography>
-                </Link>
-                <Link href='https://github.com/Luyz-Castelo'>
+                <Link href='/contact'>
                   <Typography variant='h6'>
                     Contact
                   </Typography>

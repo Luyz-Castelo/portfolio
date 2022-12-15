@@ -11,22 +11,22 @@ export const ProjectShowcase = () => {
         </Typography>
       </Container>
       <Container>
-        {projects.map(({ title, description, imageSrc, imageAlt, projectLink }) => {
+        {projects.map(({ title, description, imageSrc, imageAlt, projectLink }, index) => {
           return (
-              <Card variant='outlined'>
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    {title}
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    {description}
-                  </Typography>
-                </CardContent>
-                <Divider />
-                <Link href={projectLink} target='blank'>
-                  <CardMedia component="img" image={imageSrc} alt={imageAlt} />
-                </Link>
-              </Card>
+            <Card key={index} variant='outlined'>
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  {title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {description}
+                </Typography>
+              </CardContent>
+              <Divider />
+              <Link href={projectLink} target='blank'>
+                <CardMedia component="img" image={imageSrc} alt={imageAlt} />
+              </Link>
+            </Card>
           );
         }
         )}
