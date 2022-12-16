@@ -23,9 +23,11 @@ export const Header = () => {
             </Grid>
             <Grid xs={1} md={1} />
             <Grid xs={9} md={9}>
-              <Typography variant='h4'>
-                Luyz Castelo Branco
-              </Typography>
+              <Link href='/'>
+                <Typography variant='h4'>
+                  Luyz Castelo Branco
+                </Typography>
+              </Link>
               <Grid container>
                 <Grid xs={1} md={1} mt={1}>
                   <Container id='blue-box' />

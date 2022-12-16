@@ -5,6 +5,10 @@ const theme = createTheme({
     allVariants: {
       textTransform: 'uppercase',
       fontWeight: 'bold',
+      transition: 'color ease .35s'
+    },
+    h4: {
+      color: 'black'
     },
     h6: {
       color: '#5e5e5e',
