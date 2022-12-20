@@ -33,19 +33,6 @@ export const Header = () => {
                   <Container id='blue-box' />
                 </Grid>
               </Grid>
-
-              <Container id='links'>
-                <Link href='/projects'>
-                  <Typography variant='h6'>
-                    Projects
-                  </Typography>
-                </Link>
-                <Link href='/contact'>
-                  <Typography variant='h6'>
-                    Contact
-                  </Typography>
-                </Link>
-              </Container>
             </Grid>
           </Grid>
         </Container>
