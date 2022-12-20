@@ -1,16 +1,10 @@
-import './App.css';
-import { Header } from './components/Header/Header';
+import theme from './App.theme';
+import { ThemeProvider } from '@mui/material';
+import { Layout } from './layout/Layout';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
 
-      <div>
-        <p>aqui é o body</p>
-      </div>
-    </div>
-  );
-}
-
-export default App;
+export const App = () => (
+  <ThemeProvider theme={theme}>
+    <Layout />
+  </ThemeProvider>
+)
