@@ -3,7 +3,7 @@ import { createTheme, responsiveFontSizes } from "@mui/material";
 const theme = createTheme({
   typography: {
     allVariants: {
-      fontFamily: 'Rubik; sans-serif !important'
+      fontFamily: 'sans-serif !important'
     },
   },
 });

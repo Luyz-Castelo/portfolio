@@ -1,19 +1,19 @@
-import  theme from "./ProjectShowcase.theme";
-import { ThemeProvider, Container, Typography, Link, Card, CardContent, CardMedia, Divider } from "@mui/material";
+import { StyledContainer, StyledCard, StyledDivider } from './ProjectShowcase.style'
+import { Typography, Link, CardContent, CardMedia } from "@mui/material";
 import { projects } from "../../helpers/projects";
 
 export const ProjectShowcase = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <Container id='title'>
+    <>
+      <StyledContainer id='title'>
         <Typography variant='h4'>
           Personal Projects
         </Typography>
-      </Container>
-      <Container>
+      </StyledContainer>
+      <StyledContainer>
         {projects.map(({ title, description, imageSrc, imageAlt, projectLink }, index) => {
           return (
-            <Card key={index} variant='outlined'>
+            <StyledCard key={index} variant='outlined'>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   {title}
@@ -22,15 +22,15 @@ export const ProjectShowcase = () => {
                   {description}
                 </Typography>
               </CardContent>
-              <Divider />
+              <StyledDivider />
               <Link href={projectLink} target='blank'>
                 <CardMedia component="img" image={imageSrc} alt={imageAlt} />
               </Link>
-            </Card>
+            </StyledCard>
           );
         }
         )}
-      </Container>
-    </ThemeProvider>
+      </StyledContainer>
+    </>
   );
 };
