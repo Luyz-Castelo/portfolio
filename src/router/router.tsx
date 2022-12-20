@@ -4,7 +4,7 @@ import { Error } from "../pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
-    path: '/github-page',
+    path: '/',
     element: <Home />
   },
   {
