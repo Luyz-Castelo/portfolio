@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b9530ddd.css",
+    "main.js": "/portfolio/static/js/main.49cf2f24.js",
+    "static/media/colorSorter.png": "/portfolio/static/media/colorSorter.56a5387b1f1f1f969d86.png",
+    "static/media/luyz.jpg": "/portfolio/static/media/luyz.a5691f76a4059ca0448f.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.b9530ddd.css.map": "/portfolio/static/css/main.b9530ddd.css.map",
+    "main.49cf2f24.js.map": "/portfolio/static/js/main.49cf2f24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9530ddd.css",
+    "static/js/main.49cf2f24.js"
+  ]
+}
