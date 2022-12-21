@@ -12,7 +12,7 @@ export const Error = () => {
         Oops! this page does not exist.
       </Typography>
       <Typography variant='h4'>
-        Go back to the <StyledLink href='/'> HomePage</StyledLink>
+        Go back to the <StyledLink href='/portfolio'> HomePage</StyledLink>
       </Typography>
     </StyledContainer>
   );
