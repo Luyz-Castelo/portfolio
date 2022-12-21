@@ -4,7 +4,7 @@ import { Error } from "../pages/Error/Error";
 
 export const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Luyz-Castelo.github.io',
     element: <Home />
   },
   {
