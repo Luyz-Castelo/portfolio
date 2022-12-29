@@ -8,13 +8,13 @@ export const Header = () => (
     <Container>
       {/* Maybe change this to flex container */}
       <Grid container position='relative'>
-        <Grid xs={2} md={2}>
+        <Grid xs={3} sm={2} md={2}>
           <StyledLink href='/portfolio'>
             <StyledAvatar src={Luyz} alt='Foto do Luyz' />
           </StyledLink>
         </Grid>
-        <Grid xs={1} md={1} />
-        <Grid xs={9} md={9}>
+        <Grid xs={1} sm={1} md={1} />
+        <Grid xs={8} sm={9} md={9}>
           <StyledLink href='/portfolio'>
             <StyledTypography variant='h4'>
               Luyz Castelo Branco
