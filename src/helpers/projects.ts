@@ -1,14 +1,15 @@
-import colorSorter from '../public/Images/colorSorter.png'
-import toDoList from '../public/Images/toDoList.png'
+import colorSorter from '../public/images/colorSorter.png';
+import toDoList from '../public/images/toDoList.png';
+import asteroidGame from '../public/images/asteroidGame.png';
 
 type Project = {
-  title: string,
-  description: string,
-  imageSrc: string,
-  imageAlt: string,
-  projectLink: string,
-  projectLinkInGithub: string,
-}
+  title: string;
+  description: string;
+  imageSrc: string;
+  imageAlt: string;
+  projectLink: string;
+  projectLinkInGithub: string;
+};
 
 export const projects: Project[] = [
   {
@@ -26,5 +27,13 @@ export const projects: Project[] = [
     imageAlt: 'Todo List',
     projectLink: 'https://todo-list-lemon-eta.vercel.app/',
     projectLinkInGithub: 'https://github.com/Luyz-Castelo/todo-list',
-  }
+  },
+  {
+    title: 'Asteroid Game',
+    description: 'A game inspired by Space Invaders. Made using the Javascript and the library Phaser3. Made with TalesAmaral and devJcdzn',
+    imageSrc: asteroidGame,
+    imageAlt: 'Asteroid Game',
+    projectLink: 'https://asteroid-game.vercel.app/',
+    projectLinkInGithub: 'https://github.com/Luyz-Castelo/Asteroid-Game',
+  },
 ];

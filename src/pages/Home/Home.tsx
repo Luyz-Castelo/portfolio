@@ -1,5 +1,5 @@
-import { IntroductionText } from "../../components/IntroductionText/IntroductionText"
-import { ProjectShowcase } from "../../components/ProjectShowcase/ProjectShowcase"
+import { IntroductionText } from '../../components/IntroductionText/IntroductionText';
+import { ProjectShowcase } from '../../components/ProjectShowcase/ProjectShowcase';
 
 export const Home = () => {
   return (
@@ -7,5 +7,5 @@ export const Home = () => {
       <IntroductionText />
       <ProjectShowcase />
     </>
-  )
-}
+  );
+};
